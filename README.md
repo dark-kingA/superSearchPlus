@@ -55,5 +55,5 @@ https://github.com/dark-kingA/superSearchPlus.git
 ![](info/info13.png)
 # 0x04 技术交流
 有任何的技术问题和反馈联系本人即可
-![](不懂安全的开发.png)
+![](vx.png)
 
