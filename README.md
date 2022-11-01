@@ -1,5 +1,12 @@
 
-# 谷歌插件superSearchPlus
+# 谷歌插件superSearchPlus（更新时间 2022-11-1）
+# 更新
+2022-11-1 第一次更新 
+```
+1.上线了 quake查询
+2.修复了鹰图api 时间筛选报错问题
+3.添加工具 shell命令
+```
 # 0x01 开发初衷
 superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 整合了目前常见的资产测绘平台 同时支持数据导出
 本插件是superSearch的翻版（https://github.com/dark-kingA/superSearh.git）
@@ -41,7 +48,7 @@ https://github.com/dark-kingA/superSearchPlus.git
 支持查看响应体信息数据展示
 ![](info/info10.png)
 ### quake
-开发中 未完成
+![](info/info14.png)
 
 ## 3.信息收集
 ![](info/info11.png)
