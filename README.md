@@ -1,5 +1,5 @@
 
-# 谷歌插件superSearchPlus（更新时间 2022-11-1）
+# 谷歌插件superSearchPlus（最新更新时间 2022-11-2）
 # 更新
 2022-11-1 第一次更新 
 ```
@@ -7,6 +7,12 @@
 2.修复了鹰图api 时间筛选报错问题
 3.添加工具 shell命令
 ```
+2022-11-2 第二次更新
+```
+1.修复了 ip反查域名失败 （需手动先登录）
+2.修改部分bug
+```
+
 # 0x01 开发初衷
 superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 整合了目前常见的资产测绘平台 同时支持数据导出
 本插件是superSearch的翻版（https://github.com/dark-kingA/superSearh.git）
