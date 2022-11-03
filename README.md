@@ -35,10 +35,8 @@ https://github.com/dark-kingA/superSearchPlus.git
 
 
 # 0x03 功能描述
-## ip反查域名功能
-提取当前ip进行反查域名
+## ip反查域名功能 （可手动选择指定域名查询）
 ![](info/info15.png)
-可以手动选择指定的查询
 ![](info/info16.png)
 ## 1.提取当前tab的url进行扫描查询
 ![](info/info1.png)
