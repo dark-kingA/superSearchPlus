@@ -18,6 +18,12 @@
 2.优化了弹窗
 3.修改部分bug
 ```
+2022-11-4 第四次更新
+```
+1.增加了综合查询中 ip位置 鼠标移入 快捷查询
+2.综合查询中添加输入框 默认自动获取当前tab的url 现可以手动输入 想要查询 ip/域名
+3.修改部分bug
+```
 # 0x01 开发初衷
 superSearchPlus是聚合型信息收集插件，支持综合查询，资产测绘查询，信息收集 整合了目前常见的资产测绘平台 同时支持数据导出
 本插件是superSearch的翻版（https://github.com/dark-kingA/superSearh.git）
@@ -31,7 +37,6 @@ superSearchPlus是聚合型信息收集插件，支持综合查询，资产测�
 
 2、Github项目地址
 https://github.com/dark-kingA/superSearchPlus.git
-
 
 
 # 0x03 功能描述
