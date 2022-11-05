@@ -1,18 +1,18 @@
 {
-	"manifest_version": 2,
+	"manifest_version": 3,
 	"name": "superSearchPlus",
 	"description": "superSearchPlus高效收集信息 by 不懂安全的开发",
-	"version": "0.0.1",
+	"version": "1.0",
 	"icons": {
 		"48": "img/logo.png"
 	},
-	"browser_action": {
+	"action": {
+		"default_title": "superSearchPlusTest",
 		"default_icon": "img/logo.png",
-		"default_title": "superSearchPlus",
 		"default_popup": "popup.html"
 	},
 	"background": {
-		"scripts": ["js/hot-reload.js", "js/background.js"]
+		"server_worker": ["js/hot-reload.js", "js/background.js"]
 	},
 	"permissions": [
 		"storage",
@@ -24,11 +24,9 @@
 	],
 	"content_scripts": [
 		{
-			"matches": ["<all_urls>"],
 			"js": ["js/content.js"],
+			"matches": ["<all_urls>"],
 			"run_at": "document_end"
 		}
-	],
-	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-	"devtools_page": "devcreate.html"
+	]
 }
