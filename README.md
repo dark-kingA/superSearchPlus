@@ -1,6 +1,13 @@
 
-# 谷歌插件superSearchPlus（最新更新时间 2022-11-22）
+# 谷歌插件superSearchPlus（最新更新时间 2022-11-25）
 # 更新
+2022-11-25 第七次更新
+```
+1.优化 注释扫描功能界面ui 
+2.新增superBar 重发请求功能（仿造hackBar）
+```
+![](info/info17.png)
+![](info/info18.png)
 2022-11-22 第六次更新
 ```
 1.增加右键检查中 注释扫描功能界面
@@ -93,9 +100,12 @@ https://github.com/dark-kingA/superSearchPlus.git
 ## 5.工具
 解密
 反弹shell
+![](info/info13.png)
 ## 6.superSearchPlusTools 注释扫描功能
 ![](info/info17.png)
-![](info/info13.png)
+## 7.superBar 重发请求功能（仿造hackBar）
+![](info/info18.png)
+
 # 0x04 技术交流
 有任何的技术问题和反馈联系本人即可
 ![](vx.png)
