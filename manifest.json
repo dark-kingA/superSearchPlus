@@ -12,7 +12,8 @@
 		"default_popup": "popup.html"
 	},
 	"background": {
-		"scripts": ["js/hot-reload.js", "js/background.js"]
+		"scripts": ["js/hot-reload.js", "js/background.js"],
+		"persistent": true
 	},
 	"permissions": [
 		"storage",
@@ -20,7 +21,9 @@
 		"storage",
 		"activeTab",
 		"http://*/*",
-		"https://*/*"
+		"https://*/*",
+		"webRequest",
+		"webRequestBlocking"
 	],
 	"content_scripts": [
 		{
