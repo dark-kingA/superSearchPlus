@@ -1,6 +1,14 @@
 
-# 谷歌插件superSearchPlus（最新更新时间 2022-12-12）
+# 谷歌插件superSearchPlus（最新更新时间 2022-12-25）
 # 更新
+2022-12-25 第十次更新
+```
+1.优化界面ui 修改bug
+2.增加jsFindPlus功能 手机号码 ip 端口 路径 域名 邮箱等等数据
+```
+![](info/info23.png)
+![](info/info24.png)
+
 2022-12-12 第九次更新
 ```
 1.优化界面ui 修改bug
