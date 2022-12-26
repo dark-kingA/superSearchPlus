@@ -133,4 +133,7 @@ https://github.com/dark-kingA/superSearchPlus.git
 # 0x04 技术交流
 有任何的技术问题和反馈联系本人即可
 ![](vx.png)
-
+# 0x05 感谢
+superSearchPlus已加入FOFA共创者计划，感谢FOFA提供的账号支持。</br>
+FOFA共创者计划 https://fofa.info/development
+![](info/fofa.png)
