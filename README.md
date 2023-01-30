@@ -1,6 +1,13 @@
 
-# 谷歌插件superSearchPlus（最新更新时间 2022-12-29）
+# 谷歌插件superSearchPlus（最新更新时间 2023-01-30）
 # 更新
+2023-01-30 更新
+```
+1.信息收集模块全新升级修改 
+```
+![](info/info26.png)
+欢迎更多志同道合的朋友加入
+![](info/info27.jpeg)
 
 2022-12-26 更新
 ```
@@ -138,9 +145,6 @@ https://github.com/dark-kingA/superSearchPlus.git
 ## 7.superBar 重发请求功能（仿造hackBar）
 ![](info/info18.png)
 
-# 0x04 技术交流
-有任何的技术问题和反馈联系本人即可
-![](vx.png)
 # 0x05 感谢
 superSearchPlus已加入FOFA共创者计划，感谢FOFA提供的账号支持。</br>
 FOFA共创者计划 https://fofa.info/development
