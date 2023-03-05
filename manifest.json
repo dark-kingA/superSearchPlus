@@ -15,15 +15,17 @@
 		"scripts": ["js/hot-reload.js", "js/background.js"],
 		"persistent": true
 	},
+	"host_permissions": ["http://*/*", "https://*/*"],
 	"permissions": [
 		"storage",
 		"tabs",
-		"storage",
+		"cookies",
 		"activeTab",
 		"http://*/*",
 		"https://*/*",
 		"webRequest",
-		"webRequestBlocking"
+		"webRequestBlocking",
+		"<all_urls>"
 	],
 	"content_scripts": [
 		{
