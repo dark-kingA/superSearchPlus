@@ -27,7 +27,8 @@
 		"webRequest",
 		"webRequestBlocking",
 		"<all_urls>",
-		"webNavigation"
+		"webNavigation",
+		"contextMenus"
 	],
 	"content_scripts": [
 		{

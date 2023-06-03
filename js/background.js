@@ -1,1 +1,21 @@
-(function(e){function r(r){for(var t,c,l=r[0],a=r[1],i=r[2],p=0,d=[];p<l.length;p++)c=l[p],Object.prototype.hasOwnProperty.call(o,c)&&o[c]&&d.push(o[c][0]),o[c]=0;for(t in a)Object.prototype.hasOwnProperty.call(a,t)&&(e[t]=a[t]);f&&f(r);while(d.length)d.shift()();return u.push.apply(u,i||[]),n()}function n(){for(var e,r=0;r<u.length;r++){for(var n=u[r],t=!0,l=1;l<n.length;l++){var a=n[l];0!==o[a]&&(t=!1)}t&&(u.splice(r--,1),e=c(c.s=n[0]))}return e}var t={},o={background:0},u=[];function c(r){if(t[r])return t[r].exports;var n=t[r]={i:r,l:!1,exports:{}};return e[r].call(n.exports,n,n.exports,c),n.l=!0,n.exports}c.m=e,c.c=t,c.d=function(e,r,n){c.o(e,r)||Object.defineProperty(e,r,{enumerable:!0,get:n})},c.r=function(e){"undefined"!==typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},c.t=function(e,r){if(1&r&&(e=c(e)),8&r)return e;if(4&r&&"object"===typeof e&&e&&e.__esModule)return e;var n=Object.create(null);if(c.r(n),Object.defineProperty(n,"default",{enumerable:!0,value:e}),2&r&&"string"!=typeof e)for(var t in e)c.d(n,t,function(r){return e[r]}.bind(null,t));return n},c.n=function(e){var r=e&&e.__esModule?function(){return e["default"]}:function(){return e};return c.d(r,"a",r),r},c.o=function(e,r){return Object.prototype.hasOwnProperty.call(e,r)},c.p="/";var l=window["webpackJsonp"]=window["webpackJsonp"]||[],a=l.push.bind(l);l.push=r,l=l.slice();for(var i=0;i<l.length;i++)r(l[i]);var f=a;u.push(["ecd1","chunk-vendors"]),n()})({ecd1:function(e,r,n){n("e260"),n("e6cf"),n("cca6"),n("a79d")}});
+// 创建一个菜单项
+chrome.contextMenus.create({
+	title: 'superSearchPlus',
+	id: 'menu1',
+	contexts: ['link', 'selection', 'image', 'page'],
+})
+
+// 监听菜单项的单击事件
+chrome.contextMenus.onClicked.addListener(function (info, tab) {
+	if (info.menuItemId == 'menu1') {
+		// 判断用户是否选中
+		if (info.selectionText) {
+			let searchValue = info.selectionText
+			chrome.storage.sync.set({ searchValue }, function () {})
+		}
+		let initWith = '1'
+		chrome.storage.sync.set({ initWith }, function () {
+			chrome.tabs.create({ url: chrome.extension.getURL('popup.html') })
+		})
+	}
+})
