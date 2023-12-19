@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "superSearchPlus",
 	"description": "superSearchPlus高效收集信息 by 不懂安全的开发",
-	"version": "0.0.7",
+	"version": "0.0.8",
 	"icons": {
 		"16": "img/logo.png",
 		"48": "img/logo.png"
